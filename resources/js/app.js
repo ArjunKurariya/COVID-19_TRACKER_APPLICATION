@@ -32,7 +32,7 @@ country_list.forEach((country) => {
   }
 });
 
-console.log(country_code , ' is the country code of the user ') ;
+
 
 /* ---------------------------------------------- */
 /*                     FETCH API                  */
