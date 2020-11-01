@@ -23,13 +23,16 @@ let app_data = [],
   formatedDates = [];
 
 // GET USERS COUNTRY CODE
-let country_code = geoplugin_countryCode();
+// let country_code = geoplugin_countryCode();
+let country_code = 'IN';
 let user_country;
 country_list.forEach((country) => {
   if (country.code == country_code) {
     user_country = country.name;
   }
 });
+
+console.log(country_code , ' is the country code of the user ') ;
 
 /* ---------------------------------------------- */
 /*                     FETCH API                  */
